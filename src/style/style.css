@@ -1,0 +1,35 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body{
+    background-color: rgba(86, 141, 229, 1.00);
+}
+
+.centro{
+    height: 20vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.barra_pesquisa{
+    width: 561px;
+    height: 44px;
+    border: transparent;
+    border-radius: 50px;
+}
+
+.img{
+    height: 20vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.foto_pesquisa{
+    padding-top: 200px;
+}
