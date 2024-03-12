@@ -14,16 +14,24 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
+    text-align: center;
 }
 
 .barra_pesquisa{
     width: 561px;
     height: 44px;
+    margin-right: 40px;
     border: transparent;
     border-radius: 50px;
-    font-size: 15px;
+    font-size: 17px;
+    margin-left: 130px;
+    margin-bottom: 50px;
+    margin-top: 57px;
+    background-image: url(../img/googlemic_clr_24px.svg), url(../img/lens_icon.svg), url(../img/icon_search.svg);
+    background-size: 34px 30px;
+    background-repeat: no-repeat, no-repeat, no-repeat;
+    background-position: right center , 92% , 2%;
 }
-
 .google{
     display: flex;
     justify-content: center;
@@ -38,23 +46,8 @@ body{
 
 .lupa{
     position: absolute;
-    margin-top: 7px;
-    margin-left: 10px;
+    margin-top: 65px;
+    margin-left: 138px;
     height: 30px;
     width: 32px;
-}
-
-.microfone{
-    position: absolute;
-    margin-right: 50px;
-    padding-bottom: 50px;
-    height: 30px;
-    width: 32px;
- 
-}
-
-.camera{
-    height: 30px;
-    width: 32px;
-    position: absolute;
 }
