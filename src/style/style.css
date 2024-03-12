@@ -18,8 +18,8 @@ body{
 }
 
 .barra_pesquisa{
-    width: 561px;
-    height: 44px;
+    width: 421px;
+    height: 42px;
     margin-right: 40px;
     border: transparent;
     border-radius: 50px;
@@ -27,10 +27,13 @@ body{
     margin-left: 130px;
     margin-bottom: 50px;
     margin-top: 57px;
-    background-image: url(../img/googlemic_clr_24px.svg), url(../img/lens_icon.svg), url(../img/icon_search.svg);
-    background-size: 34px 30px;
-    background-repeat: no-repeat, no-repeat, no-repeat;
-    background-position: right center , 92% , 2%;
+    z-index: 3;
+    margin-right: 50px;
+}
+
+textarea:focus, input:focus {
+    box-shadow: 0 0 0 0;
+    outline: 0;
 }
 .google{
     display: flex;
@@ -38,16 +41,27 @@ body{
     align-items: center;
     text-align: center;
     padding-bottom: 5px;
+    margin-left: 60px;
 }
 
 .foto_pesquisa{
     padding-top: 300px;
 }
 
-.lupa{
+.barra_invisivel{
+    background-color: white;
+    width: 571px;
+    height: 44px;
+    background-image: url(../img/googlemic_clr_24px.svg), url(../img/lens_icon.svg), url(../img/icon_search.svg);
+    background-size: 29px 27px;
+    background-repeat: no-repeat;
+    background-position: 99%, 92% , 2%;
     position: absolute;
-    margin-top: 65px;
-    margin-left: 138px;
-    height: 30px;
-    width: 32px;
+    margin-left: 84px;
+    margin-top: 10px;
+    z-index: -1;
+    border: transparent;
+    border-radius: 50px;
+    pointer-events: none;
+    user-select: none;
 }
