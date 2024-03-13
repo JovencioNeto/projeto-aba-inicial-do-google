@@ -10,4 +10,4 @@ Esse é meu projeto tentando recriar a aba inicial do Google, eu pensei em criar
 
 # Auxiliar
 
-# ..
+# Explicando o código( ou pelo menos tentando)
