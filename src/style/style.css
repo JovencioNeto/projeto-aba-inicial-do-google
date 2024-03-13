@@ -66,3 +66,28 @@ textarea:focus, input:focus {
     border: 2px solid #dadce0ff ;
     border-radius: 50px;
 }
+
+.gmail_img{
+    margin-left: 1750px;
+    margin-top: 20px;
+    font-size: 14px;
+}
+
+.icon_opcoes{
+    margin-left: 25px;
+    position: absolute;
+}
+
+.gmail{
+    margin-right: 10px;
+    margin-bottom: 10px;
+    text-decoration: none;
+}
+
+.imagens{
+    text-decoration: none;
+}
+
+pseudo-seletor :active{
+    color: gray;
+}
