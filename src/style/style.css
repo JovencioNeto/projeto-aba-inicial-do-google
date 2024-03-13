@@ -5,7 +5,7 @@
 }
 
 body{
-    background-color: rgba(86, 141, 229, 1.00);
+    background-color: white;
     cursor: pointer;
 }
 
@@ -22,13 +22,12 @@ body{
     height: 42px;
     margin-right: 40px;
     border: transparent;
-    border-radius: 50px;
     font-size: 17px;
     margin-left: 130px;
     margin-bottom: 50px;
     margin-top: 57px;
     z-index: 3;
-    margin-right: 50px;
+    margin-right: 104px;
 }
 
 textarea:focus, input:focus {
@@ -55,7 +54,7 @@ textarea:focus, input:focus {
     background-image: url(../img/googlemic_clr_24px.svg), url(../img/lens_icon.svg), url(../img/icon_search.svg);
     background-size: 29px 27px;
     background-repeat: no-repeat;
-    background-position: 99%, 92% , 2%;
+    background-position: 92%, 99% , 2%;
     position: absolute;
     margin-left: 84px;
     margin-top: 10px;
@@ -64,4 +63,6 @@ textarea:focus, input:focus {
     border-radius: 50px;
     pointer-events: none;
     user-select: none;
+    border: 2px solid #dadce0ff ;
+    border-radius: 50px;
 }
