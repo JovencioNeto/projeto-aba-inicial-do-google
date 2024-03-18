@@ -1,6 +1,6 @@
 *{
-    padding: 0%;
-    margin: 0%;
+    padding: 0;
+    margin: 0;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
@@ -15,6 +15,7 @@ body{
     align-items: center;
     justify-content: center;
     text-align: center;
+    padding-right: 30px;
 }
 
 .barra_pesquisa{
@@ -39,19 +40,18 @@ textarea:focus, input:focus {
     justify-content: center;
     align-items: center;
     text-align: center;
-    padding-bottom: 5px;
-    margin-left: 60px;
+    margin-left: 50px;
 }
 
 .foto_pesquisa{
-    padding-top: 300px;
+    margin-top: 10%;
 }
 
 .barra_invisivel{
     background-color: white;
     width: 571px;
-    height: 44px;
-    background-image: url(../img/googlemic_clr_24px.svg), url(../img/lens_icon.svg), url(../img/icon_search.svg);
+    height: 46px;
+    background-image: url(../img/microfone.svg), url(../img/camera.svg), url(../img/lupa.svg);
     background-size: 29px 27px;
     background-repeat: no-repeat;
     background-position: 92%, 99% , 2%;
@@ -63,13 +63,13 @@ textarea:focus, input:focus {
     border-radius: 50px;
     pointer-events: none;
     user-select: none;
-    border: 2px solid #dadce0ff ;
+    border: 2px solid #dadce0ff;
     border-radius: 50px;
 }
 
-.gmail_img{
-    margin-left: 1750px;
-    margin-top: 20px;
+.gmail_img_opcao{
+    margin-left: 88vw;
+    padding-top: 10px;
     font-size: 14px;
 }
 
@@ -86,8 +86,4 @@ textarea:focus, input:focus {
 
 .imagens{
     text-decoration: none;
-}
-
-pseudo-seletor :active{
-    color: gray;
 }
