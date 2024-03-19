@@ -76,3 +76,7 @@ Após tudo isso, claro que estilizando parte por parte utilizadno MUITO margins 
 Esse trabalho pode ter falhas e pode não ser tão prático, mas me ajudou bastante a entender alguns conceitos das linguagens de HTML e CSS, e me fez me correr atrás e pesquisar atrás de diversos recursos que eu não fazia ideia do quão úteis poderiam ser, em diversas fontes e locais, foi até que bem divertido quebrar minha cabeça fazendo isso e provavelmente eu vou aprimorar esse projeto depois...
 
 Alguns elementos como textarea e box shadow foi o método que eu usei para tirar as bordas ao clicar no input sem usar Javascript e position foi o que eu usei para conseguir alinhar algumas tags ao centro.
+
+
+# Instruções
+Serve como fonte de pesquisa ou como um navegador padrão, basta clicar na barra de pesquisa depois clicar Enter assim como os demais navegadores, após isso o usuário é direcionado para um local com aquilo que foi digitado na barra de pesquisa.
