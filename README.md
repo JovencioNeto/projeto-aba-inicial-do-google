@@ -80,3 +80,5 @@ Alguns elementos como textarea e box shadow foi o método que eu usei para tirar
 
 # Instruções
 Serve como fonte de pesquisa ou como um navegador padrão, basta clicar na barra de pesquisa depois clicar Enter assim como os demais navegadores, após isso o usuário é direcionado para um local com aquilo que foi digitado na barra de pesquisa.
+
+Atualmente algumas imagens que são semelhante a botões não esttão atribuidos a nenhuma função, ou seja, eles não funcionam, pelo menos não ainda, afinal esse projeto se trata de um protótipo em desenvolvimento.
