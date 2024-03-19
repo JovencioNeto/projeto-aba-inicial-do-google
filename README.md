@@ -2,6 +2,7 @@
 
 Esse é meu projeto tentando recriar a aba inicial do Google, eu pensei em criar esse projeto pra aprender e desenvolver habilidades com HTML e CSS, aprender novos atributos e configurações utilizando e atualizando tags.
 
+Espero que ele sirva de inspiração, modelo ou até mesmo aprendizagem para outras pessoas.
 # Atributos utilizados (HTML)
 ➤lang <br>
 ➤charset  <br>
@@ -51,7 +52,7 @@ Esse é meu projeto tentando recriar a aba inicial do Google, eu pensei em criar
 ➤user-select  <br>
 ➤width  <br>
 ➤z-index  <br>
-# Tags utilizadas
+# Tags utilizadas (HTML)
 ➤html  <br>
 ➤head  <br>
 ➤meta  <br>
