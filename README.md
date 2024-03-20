@@ -65,7 +65,7 @@ Espero que ele sirva de inspiração, modelo ou até mesmo aprendizagem para out
 ➤div  <br>
 ➤link <br>
 # Organização
-Foi utilizado css externo, assim como imagens externas, tudo foi jogado dentro de uma pasta SCR, e a partir de lá são retirados as informações e personalização do HTML, tudo isso foi linkado na região da tag <Head> .
+Foi utilizado css externo, assim como imagens externas, tudo foi jogado dentro de uma pasta SRC, e a partir de lá são retirados as informações e personalização do HTML, tudo isso foi linkado na região da tag <Head> .
 # Explicando o código ( ou pelo menos tentando)
 
 Primeira coisa que eu tentei fazer foi a barra de pesquisa, então fui examinar o codigo fonte do google, para me basear e saber como funciona, e depois utilizei a tag form, para criar um input dentro dela que recebesse informações, e depois eu utilizei os atributos action e method para receber essas informações, utilizei o placeholder para deixar uma frase de fundo, o atributo name= "q" para se adequar aos meio utilizados pelo google, depois só coloquei uma class para acessar a tag do input no CSS, e assim eu fiz o input, depois coloquei uma imagem acima e usei uma medidas vh nessa região, para trabalhar com o tamanho dos dipositivo.
